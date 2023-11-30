@@ -1,5 +1,9 @@
 package main
 
-import	("fmt","github.com/hernan0073/testgolang/variables")
+import (
+	"github.com/hernan0073/testgolang/variables"
+)
 
-func 
+func main() {
+	variables.MuestroEnteros()
+}
