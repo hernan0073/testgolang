@@ -1,26 +1,19 @@
 package main
 
 import (
+	"_/Users/settinoh/Documents/Labs/Go/practica-udemy/variables"
 	"fmt"
 	"runtime"
 
-	"github.com/hernan0073/testgolang/variables"
+	"github.com/hernan0073/testgolang/ejercicio01"
 )
 
 func main() {
-	estado, texto := variables.ConviertetoTex(1544)
+	int, texto := variables.Valores("1554")
 
-	fmt.Println("convert", estado, texto)
+	fmt.Println(int,texto)
 
-	os := runtime.GOOS
 
-	if os == "Linux ." {
-
-		fmt.Println(" Esto es linux")
-
-	} else {
-
-		fmt.Println("esto es", os)
 	}
 
 }
